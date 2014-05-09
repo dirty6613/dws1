@@ -1,0 +1,5 @@
+repo:
+https://github.com/dirty6613/dws1
+
+gh-pages:
+https://github.com/dirty6613/dws1/tree/gh-pages
