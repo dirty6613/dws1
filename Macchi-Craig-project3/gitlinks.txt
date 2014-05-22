@@ -2,4 +2,4 @@ repo:
 https://github.com/dirty6613/dws1
 
 gh-pages:
-http://dirty6613.github.io/dws1/Macchi-Craig-project2/index.html
+http://dirty6613.github.io/dws1/Macchi-Craig-project3/index.html
