@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/* CSS Document */
+/* font from sansation_light.woff for main heading */
+@font-face
+{
+font-family: myFirstFont, Arial, Helvetica, sans-serif;
+src: url(sansation_light.woff);
+}
+/* link navigation style */
+a {
+	text-decoration:none;
+}
+a:link {color:#fc0; }      /* unvisited link */
+a:visited {color:#fc0;}  /* visited link */
+a:hover {background-color:#fc0;; color:#000;}  /* mouse over link */
+a:active {color:#333;}  /* selected link */
+/* body style */
+body {
+	width:100%;
+	background:linear-gradient(#06F, #0CF);
+	color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:120%;	
+}
+/* Center and shadow main heading */
+h1 {
+	text-shadow:2px 2px #F00;
+	text-align:center;
+	
+}
+/* Add opacity to h2 elements */
+h2 {
+	opacity:0.5;
+	font-style:oblique;
+	font-weight:900;
+}
+/* Apply imported font */
+h3 {
+	font-family:myFirstFont;
+}
+/* holds all elements inside body element */
+#container {
+	width:1024px;
+	background-color:#000;
+	margin:0 auto;
+	height:auto;
+	border:5px solid #fff;
+	border-radius:10px;
+}
+/* container for header */
+#header{
+	background-image:url(../images/header_bg.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	width:100%;
+	height:465px;
+	background-color:#000;
+	color:#fff;
+	margin:0 auto;
+}
+/* contains pages content below header */
+#content{
+	padding:20px;
+	box-shadow: 10px 10px 5px #888888;
+}
+/* main title div style */
+#title{
+	float:left;
+	width:47%;
+	margin-right:5%;
+}
+/* nav style */
+#links {
+	float:left;
+	width:48%;
+	padding-top:20px;
+}
+/* class to display ul inline-block */
+.inline li {
+	display:inline;
+	float:left;
+	margin-right:14px;
+}
+/* about section style */
+#about {
+	width:45%;
+	margin-right:10%;
+	float:left;
+	clear:left;
+}
+/* h2 about style */
+#about h2{
+	text-align:center;
+}
+/* style for gallery layout */
+#gallery {
+	width:45%;
+	float:left;
+	background-color:#fff;
+	color:#000;
+	text-align:center;
+	margin:25px 0 60px 0;
+}
+/* footer section style */
+#footer {
+	width:97%;
+	clear:both;
+	background-color:#666;
+	background-image:url(../images/steel.png);
+	background-repeat:repeat;
+	background-position:top center;
+	border:thick solid #fff;
+	margin:40px auto;
+	padding:10px;
+}
+/* contact layout */
+#contact {
+	width:100%;
+	clear:both;
+}
+/* replace bullet points with discs for ul */
+ul {
+	list-style-type:circle;
+}
